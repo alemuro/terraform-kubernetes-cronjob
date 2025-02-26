@@ -1,0 +1,19 @@
+sections:
+  show:
+    - header
+    - providers
+    - inputs
+    - outputs
+sort:
+  enabled: true
+  by: required
+content: |
+  # Terraform Module for creating a cronjob on a Kubernetes cluster
+
+  This module provides an easy way to deploy a cronjob on a Kubernetes cluster. It has been designed to allow cronjobs with only one container. See examples below.
+
+  {{ .Providers }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
